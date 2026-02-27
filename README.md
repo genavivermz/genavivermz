@@ -5,6 +5,6 @@ Hey! I'm Genavive, an incoming college freshman
 - Founder of Bobigos.com ₍^. .^₎Ⳋ
 - Interested in supporting busy/home-oriented founders <3
 
-# Project Interests
+# Interests
 - Web development
 - Social impact projects
