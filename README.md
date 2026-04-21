@@ -6,10 +6,11 @@ Hey! I'm Genavive, an incoming college freshman
 - Interested in supporting busy/home-oriented founders <3
 
 # Interests
-- Web development
-- Social impact projects
 - Machine learning
+- Public speaking
+- Social impact projects
 - Startups
+- Web development
 - Writing 📓
 
 # Contact / Socials
