@@ -1,5 +1,5 @@
 # 🦄
-Hey! I'm Genavive, an incoming college freshman
+Hey! I'm Genavive, an incoming college freshman; here's sum stuff about me :-)
 - Computer Science + Economics ˙𐃷˙
 - Madonna lover ꒰ᐢ. .ᐢ꒱
 - Founder of Bobigos.com ₍^. .^₎Ⳋ
