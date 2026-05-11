@@ -1,17 +1,17 @@
 # 🦄
-Hey! I'm Genavive, an incoming college freshman; here's sum stuff about me :-)
-- Computer Science + Economics ˙𐃷˙
+Hey! I'm Genavive, an incoming college freshman; here's some stuff about me :-)
+- Computer Science + Literature ˙𐃷˙
 - Madonna lover ꒰ᐢ. .ᐢ꒱
+- Optimist!
 - Founder of Bobigos.com ₍^. .^₎Ⳋ
-- Interested in supporting busy/home-oriented founders <3
+- Interested in sparking creativity & challengers through tech <3
 
-# Interests
-- Machine learning
-- Public speaking
-- Social impact projects
+# Interests ཐི༏ཋྀ
+- CS Systems + Architecture
+- Contemporary art
 - Startups
-- Web development
-- Writing 📓
+- Tech sociology ⊹ ࣪ ˖
+- Writing books!
 
 # Contact / Socials
 - genavivers08@gmail.com
