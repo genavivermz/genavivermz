@@ -1,5 +1,5 @@
-# 🦄
-Hey! I'm Genavive, an incoming college freshman; here's some stuff about me :-)
+# 🦄 Hi, i'm Genavive!
+Here's a little about me :p
 - Computer Science + Literature ˙𐃷˙
 - Madonna lover ꒰ᐢ. .ᐢ꒱
 - Optimist!
