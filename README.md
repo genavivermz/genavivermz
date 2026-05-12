@@ -2,7 +2,7 @@
 Here's a little about me :p
 - Computer Science + Literature ˙𐃷˙
 - Madonna lover ꒰ᐢ. .ᐢ꒱
-- Optimist!
+- Glass half full
 - Founder of Bobigos.com ₍^. .^₎Ⳋ
 - Interested in sparking creativity & challengers through tech <3
 
