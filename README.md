@@ -5,13 +5,12 @@ Welcome to my GitHub :-) I like...
 - Being the founder of Bobigos.com ₍^. .^₎Ⳋ
 - Learning new languages. Je suis apasionada, 不是 प्रतिभाशाली...
 
-# Interests ཐི༏ཋྀ
+# interests ཐི༏ཋྀ
 - CS, Software to Hardware
 - Contemporary art
 - Startups
 - Tech sociology ⊹ ࣪ ˖
 - Writing books
 
-# Contact / Socials
+# my mailbox
 - genavivers08@gmail.com
-- @bobigos on IG
