@@ -1,16 +1,16 @@
-# 🦄 Hi, i'm Genavive!
-Here's a little about me :p
-- Computer Science + Literature ˙𐃷˙
-- Madonna lover ꒰ᐢ. .ᐢ꒱
-- Founder of Bobigos.com ₍^. .^₎Ⳋ
-- Interested in sparking creativity & challengers through tech <3
+# 🦄 hi
+Welcome to my GitHub :-) I like...
+- Computer Science & Humanitarian Projects ˙𐃷˙
+- Madonna ꒰ᐢ. .ᐢ꒱
+- Being the founder of Bobigos.com ₍^. .^₎Ⳋ
+- Learning new languages. Allons empezar 某事 नया!
 
 # Interests ཐི༏ཋྀ
-- CS Systems + Architecture
+- CS, Software to Hardware
 - Contemporary art
 - Startups
 - Tech sociology ⊹ ࣪ ˖
-- Writing books!
+- Writing books
 
 # Contact / Socials
 - genavivers08@gmail.com
