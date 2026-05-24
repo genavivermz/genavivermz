@@ -12,5 +12,5 @@ Welcome to my GitHub :-) I like...
 - Tech sociology ⊹ ࣪ ˖
 - Writing books
 
-# my mailbox
+# mailbox
 - genavivers08@gmail.com
