@@ -3,7 +3,7 @@ Welcome to my GitHub :-) I like...
 - Computer Science & Humanitarian Projects ˙𐃷˙
 - Madonna ꒰ᐢ. .ᐢ꒱
 - Being the founder of Bobigos.com ₍^. .^₎Ⳋ
-- Learning new languages. Allons empezar 某事 नया!
+- Learning new languages. Je suis apasionado, 不是 प्रतिभाशाली...
 
 # Interests ཐི༏ཋྀ
 - CS, Software to Hardware
