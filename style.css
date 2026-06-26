@@ -91,8 +91,8 @@ section {
 #intro .section-inner,
 #experience .section-content,
 #past-work .section-content,
-#awards .section-content,
-#contact .section-content {
+#projects .section-content,
+#awards .section-content {
   background-color: var(--color-off-white);
   color: #000;
   width: 100%;
@@ -100,6 +100,16 @@ section {
   margin: 0;
   padding: var(--panel-padding);
   box-sizing: border-box;
+}
+
+#socials {
+  background-color: var(--color-off-white);
+  padding: var(--panel-padding);
+}
+
+#socials .section-content {
+  background-color: transparent;
+  padding: 0;
 }
 
 .section-inner {
@@ -134,8 +144,9 @@ section {
 
 #experience .section-content,
 #past-work .section-content,
+#projects .section-content,
 #awards .section-content,
-#contact .section-content {
+#socials .section-content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -147,13 +158,14 @@ section {
   max-width: var(--work-text-max-width);
 }
 
-#past-work .section-content > * {
+#past-work .section-content > *,
+#projects .section-content > * {
   width: 100%;
   max-width: var(--past-work-text-max-width);
 }
 
 #awards .section-content > *,
-#contact .section-content > * {
+#socials .section-content > * {
   width: 100%;
   max-width: var(--text-column-max-width);
 }
@@ -169,24 +181,15 @@ section {
   overflow: hidden;
 }
 
-#intro .section-media {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  align-self: center;
+#intro .intro-gif {
+  display: block;
   flex: 0 0 auto;
-  width: auto;
-  min-height: auto;
-  border: none;
-  background: none;
+  align-self: center;
+  width: var(--intro-gif-size);
+  height: auto;
+  margin: 0;
   border-radius: 0;
-  overflow: visible;
-}
-
-.section-media:has(img),
-.section-media:has(video) {
-  border: none;
-  background: transparent;
+  object-fit: contain;
 }
 
 .section-media img,
@@ -196,15 +199,6 @@ section {
   object-fit: cover;
   display: block;
   border-radius: 10px;
-}
-
-#intro .section-media img {
-  display: block;
-  width: var(--intro-gif-size);
-  height: auto;
-  max-width: 100%;
-  object-fit: contain;
-  border-radius: 0;
 }
 
 .nav a {
@@ -264,7 +258,7 @@ ul {
   padding-left: 0;
 }
 
-img {
+img:not(.intro-gif):not(.social-icon) {
   display: block;
   margin: 0.5em auto 0;
 }
@@ -273,26 +267,28 @@ img {
   display: none;
 }
 
-.contact-row {
+.socials-links {
   display: flex;
   gap: 24px;
   margin-top: 8px;
-}
-
-#contact .section-content {
-  text-align: center;
-}
-
-#contact .contact-row {
   justify-content: center;
+  align-items: center;
 }
 
-.contact-icon {
-  max-width: 40px;
-  height: auto;
-  border-radius: 12px;
+.social-icon {
   display: block;
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
   margin: 0;
+}
+
+.socials-links a:hover {
+  text-decoration: none;
+}
+
+#socials .section-content {
+  text-align: center;
 }
 
 .cursor-trail {
@@ -334,6 +330,10 @@ img {
     gap: 28px;
   }
 
+  #intro .intro-gif {
+    width: min(var(--intro-gif-size), 100%);
+  }
+
   .section-media {
     width: 100%;
     flex: none;
@@ -341,8 +341,8 @@ img {
     margin: 0 auto;
   }
 
-  .contact-row {
-    justify-content: center !important;
+  .socials-links {
+    gap: 16px;
   }
 }
 
@@ -358,8 +358,12 @@ img {
   #intro .section-inner,
   #experience .section-content,
   #past-work .section-content,
-  #awards .section-content,
-  #contact .section-content {
+  #projects .section-content,
+  #awards .section-content {
+    padding: 40px 32px;
+  }
+
+  #socials {
     padding: 40px 32px;
   }
 
@@ -382,12 +386,13 @@ img {
     margin: 6px 0 2px;
   }
 
-  .contact-row {
+  .socials-links {
     gap: 16px;
   }
 
-  .contact-icon {
-    max-width: 32px;
+  .social-icon {
+    width: 32px;
+    height: 32px;
   }
 
   .nav {
