@@ -4,4 +4,4 @@ Welcome to my GitHub :-)
 - I love contemporary and renaissance art, writing, and Miguel ꒰ᐢ. .ᐢ꒱
 
 # mailbox
-genavivers08@gmail.com
+everuhz@gmail.com
