@@ -1,16 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
   <g fill="none" stroke="#c5d8e6" stroke-width="1.15" opacity="0.7">
-    <path d="M120 16 C142 52 180 76 224 88 C180 100 142 124 120 160 C98 124 60 100 16 88 C60 76 98 52 120 16Z"/>
-    <path d="M120 52 C134 76 158 92 184 100 C158 108 134 124 120 148 C106 124 82 108 56 100 C82 92 106 76 120 52Z"/>
-    <path d="M120 78 C128 92 140 100 156 106 C140 112 128 120 120 134 C112 120 100 112 84 106 C100 100 112 92 120 78Z"/>
-    <circle cx="120" cy="106" r="5.5" fill="#c5d8e6" stroke="none"/>
-    <path d="M0 0 C18 22 22 18 0 44"/>
-    <path d="M240 0 C222 22 218 18 240 44"/>
-    <path d="M0 240 C18 218 22 222 0 196"/>
-    <path d="M240 240 C222 218 218 222 240 196"/>
-    <circle cx="0" cy="120" r="3.2" fill="#c5d8e6" stroke="none"/>
-    <circle cx="240" cy="120" r="3.2" fill="#c5d8e6" stroke="none"/>
-    <circle cx="120" cy="0" r="3.2" fill="#c5d8e6" stroke="none"/>
-    <circle cx="120" cy="240" r="3.2" fill="#c5d8e6" stroke="none"/>
+    <!-- centered ogee diamond -->
+    <path d="M120 28
+      C148 68 188 96 212 120
+      C188 144 148 172 120 212
+      C92 172 52 144 28 120
+      C52 96 92 68 120 28Z"/>
+    <path d="M120 56
+      C140 86 168 106 184 120
+      C168 134 140 154 120 184
+      C100 154 72 134 56 120
+      C72 106 100 86 120 56Z"/>
+    <path d="M120 80
+      C132 100 148 110 160 120
+      C148 130 132 140 120 160
+      C108 140 92 130 80 120
+      C92 110 108 100 120 80Z"/>
+    <circle cx="120" cy="120" r="5" fill="#c5d8e6" stroke="none"/>
+
+    <!-- mid-edge marks (tile seamlessly) -->
+    <circle cx="0" cy="120" r="3" fill="#c5d8e6" stroke="none"/>
+    <circle cx="240" cy="120" r="3" fill="#c5d8e6" stroke="none"/>
+    <circle cx="120" cy="0" r="3" fill="#c5d8e6" stroke="none"/>
+    <circle cx="120" cy="240" r="3" fill="#c5d8e6" stroke="none"/>
+
+    <!-- corner accents, mirrored -->
+    <path d="M0 0 C14 18 18 14 0 36"/>
+    <path d="M240 0 C226 18 222 14 240 36"/>
+    <path d="M0 240 C14 222 18 226 0 204"/>
+    <path d="M240 240 C226 222 222 226 240 204"/>
   </g>
 </svg>
