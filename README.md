@@ -1,4 +1,4 @@
-# ཐིཋྀ in my room
+# ཐིཋྀ
 - CS student
 - **<3** writing, mentorship, finance, social impact, & design
 - founder of Winged Founders & Fortune Cookie Foundation
