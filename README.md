@@ -4,7 +4,7 @@
 - founder of Winged Founders & Fortune Cookie Foundation
 
 # my stack
-- **languages:** python, c++, HTML/CSS
+- **languages:** python, c++, c#, javascript, HTML/CSS
 - **data + ml:** xgboost, pandas, numpy, streamlit
 - **hardware + tools:** kicad, git, macOS
 
