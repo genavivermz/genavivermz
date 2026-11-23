@@ -9,4 +9,4 @@
 - **hardware + tools:** kicad, git, macOS
 
 # mailbox
-everuhz@gmail.com
+genavivermz@gmail.com
