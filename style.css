@@ -135,7 +135,7 @@ a:focus-visible {
   line-height: 1;
 }
 
-.intro {
+.bio {
   max-width: 640px;
   margin-top: 22px;
   color: var(--ink);
@@ -644,7 +644,7 @@ a:focus-visible {
     font-size: clamp(62px, 21vw, 88px);
   }
 
-  .intro {
+  .bio {
     font-size: 14px;
   }
 
