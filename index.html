@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Genavive Ramirez</title>
-  <meta name="description" content="Founder of Winged Founders & Fortune Cookie Foundation. CS student interested in AI, mentorship, and building.">
+  <meta name="description" content="Genavive Ramirez studies computer science and human-centered technology in Southern California and is building Winged Founders and the Fortune Cookie Foundation.">
   <link rel="icon" href="images/favicon.png" type="image/png">
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -13,135 +13,174 @@
   <link rel="icon" type="image/png" sizes="512x512" href="images/favicon-512x512.png">
   <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
   <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#f4fafd">
+  <meta name="theme-color" content="#f8fafb">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="bg-pattern" aria-hidden="true"></div>
-  <div class="grain" aria-hidden="true"></div>
-
-  <div class="intro" id="intro" aria-hidden="true">
-    <div class="intro__stage">
-      <div class="intro__orbit" id="intro-orbit" aria-hidden="true"></div>
-      <p class="intro__mark" aria-label="hello, world">
-        <span class="intro__letter" style="--i: 0">h</span><span class="intro__letter" style="--i: 1">e</span><span class="intro__letter" style="--i: 2">l</span><span class="intro__letter" style="--i: 3">l</span><span class="intro__letter" style="--i: 4">o</span><span class="intro__letter" style="--i: 5">,</span><span class="intro__letter intro__space" style="--i: 6">&nbsp;</span><span class="intro__letter" style="--i: 7">w</span><span class="intro__letter" style="--i: 8">o</span><span class="intro__letter" style="--i: 9">r</span><span class="intro__letter" style="--i: 10">l</span><span class="intro__letter" style="--i: 11">d</span>
-      </p>
+  <header class="nav">
+    <div class="shell">
+      <a class="wordmark" href="#top" aria-label="Home">
+        <img src="images/favicon.png" alt="">
+      </a>
+      <nav class="nav-links" aria-label="On this site">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#note">Say hello</a>
+      </nav>
     </div>
-  </div>
+  </header>
 
-  <div class="site" id="site">
-    <main class="page">
-      <header class="hero">
-        <p class="eyebrow">genavive ramirez</p>
-        <h1 class="name">genavive</h1>
-        <p class="lede">College freshman from SoCal studying computer science. Currently focused on mentorship and growing Winged Founders. Have any questions? Need guidance? Reach me at <a href="mailto:everuhz@gmail.com">everuhz@gmail.com</a>.</p>
-      </header>
-
-      <section class="block" id="winged-founders">
-        <h2><a href="https://wingedfounders.com" target="_blank" rel="noopener">Winged Founders</a></h2>
-        <p class="block__meta">2024 – Present</p>
-        <div class="block__copy">
-          <p>Building a free, personalized roadmap platform for bedroom founders facing adversity. Match founders with milestones, eligible grants/fellowships/awards, and visibility for existing work. Pace roadmaps around each founder's real-life constraints and deliver 1:1, mentor-style guidance in a doc.</p>
+  <main id="top">
+    <section class="hero">
+      <div class="shell">
+        <h1>Genavive Ramirez</h1>
+        <p class="who"><span>Youth Advocate</span><span>Mentor</span><span>Computer Nerd</span></p>
+        <p class="intro">Studying computer science and human-centered technology with the belief that every young person deserves the chance to turn adversity into growth through meaningful social impact projects. Currently growing Winged Founders and the Fortune Cookie Foundation.</p>
+        <div class="hero-actions">
+          <a class="primary-link" href="#work">See projects
+            <svg viewBox="0 0 15 15" aria-hidden="true"><path d="M7.5 3.5v8M4.2 8.2 7.5 11.5l3.3-3.3" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <p class="location">Computer science · Southern California</p>
         </div>
-      </section>
-
-      <section class="block" id="fortune-cookie">
-        <h2><a href="https://fortunecookiefoundation.org" target="_blank" rel="noopener">Fortune Cookie Foundation</a></h2>
-        <p class="block__meta">2026 – Present</p>
-        <div class="block__copy">
-          <p>Launching a global non-profit organization that recognizes and supports students navigating personal hardships and mental health challenges.</p>
-        </div>
-      </section>
-
-      <section class="block" id="cs">
-        <h2>Elsewhere</h2>
-        <div class="block__copy">
-          <p>I'm interested in AI and joined <a href="https://algoverseairesearch.org/" target="_blank" rel="noopener">Algoverse AI</a> as a machine learning student. I love tinkering with <a href="#projects">PCB design</a>. I'm a <a href="https://github.com/genavivermz/my-journal">writer</a> and <a href="https://github.com/genavivermz/tarot-card-station">fortune teller</a> on the side ⊹ ࣪ ˖</p>
-        </div>
-      </section>
-
-      <section class="block" id="projects">
-        <h2>PCB projects</h2>
-        <ul class="project-list">
-          <li>
-            <a href="https://github.com/genavivermz/cute-pcb-keychain" target="_blank" rel="noopener">PCB Keychain</a>
-            <span>First KiCad build: kaomoji board with LEDs, resistors, and USB.</span>
-          </li>
-          <li>
-            <a href="https://github.com/genavivermz/nyan-cat-pcb" target="_blank" rel="noopener">Nyan Cat PCB</a>
-            <span>Shaped board experiment with LEDs, a microcontroller, and a battery cell.</span>
-          </li>
-        </ul>
-      </section>
-
-      <section class="block" id="recognition">
-        <h2>Recognition</h2>
-        <ul class="award-list">
-          <li>
-            <span class="award-title">National Merit Scholarship Letter of Commendation</span>
-            <span class="award-date">2025</span>
-          </li>
-          <li>
-            <span class="award-title">Principal's Honor Roll (5×)</span>
-            <span class="award-date">2024–2026</span>
-          </li>
-          <li>
-            <span class="award-title">College Board National Hispanic Recognition Program</span>
-            <span class="award-date">2025</span>
-          </li>
-          <li>
-            <span class="award-title">Honor Court</span>
-            <span class="award-date">2025–2026</span>
-          </li>
-          <li>
-            <span class="award-title">AP Scholar with Honor</span>
-            <span class="award-date">2025</span>
-          </li>
-          <li>
-            <span class="award-title">California Scholarship Federation Member</span>
-            <span class="award-date">2024–2026</span>
-          </li>
-          <li>
-            <span class="award-title">California State Seal of Biliteracy</span>
-            <span class="award-date">2026</span>
-          </li>
-          <li>
-            <span class="award-title">Golden State Seal Merit Diploma</span>
-            <span class="award-date">2026</span>
-          </li>
-        </ul>
-      </section>
-
-      <section class="block" id="history">
-        <h2><a href="history.html">See full history</a></h2>
-        <div class="block__copy">
-          <p>View all past experiences</p>
-        </div>
-      </section>
-    </main>
-
-    <section class="closing" id="wf-invite" aria-label="Winged Founders">
-      <div class="closing__body">
-        <p class="closing__q">Want to launch a social impact project from your room?</p>
-        <a class="closing__cta" href="https://wingedfounders.com" target="_blank" rel="noopener">
-          Take me to Winged Founders
-        </a>
       </div>
-
-      <footer class="foot">
-        <nav class="links" aria-label="Social">
-          <a href="https://www.linkedin.com/in/genavive-ramirez" target="_blank" rel="noopener">linkedin</a>
-          <a href="https://github.com/genavivermz" target="_blank" rel="noopener">github</a>
-          <a href="mailto:everuhz@gmail.com">email</a>
-        </nav>
-        <p class="fine">Genavive Ramirez · © 2026</p>
-      </footer>
     </section>
-  </div>
 
-  <script src="script.js"></script>
+    <section class="work" id="work">
+      <div class="shell">
+        <div class="section-heading">
+          <h2>Projects &amp; initiatives</h2>
+        </div>
+
+        <div class="project-list">
+          <article class="project" id="winged-founders">
+            <div class="project-body">
+              <h3><a href="https://wingedfounders.com" target="_blank" rel="noopener">Winged Founders</a></h3>
+              <p class="stack"><span>Founder &amp; youth mentor</span></p>
+              <ul>
+                <li>Free roadmap platform for young founders facing adversity</li>
+                <li>Matches each person with milestones, grants, fellowships, and awards</li>
+                <li>Paces the plan around real-life constraints</li>
+                <li>One-to-one guidance</li>
+              </ul>
+              <p class="project-mail">Inquiries <a href="mailto:everuhz@gmail.com">everuhz@gmail.com</a></p>
+            </div>
+            <p class="project-note">2024 – Present</p>
+          </article>
+
+          <article class="project" id="fortune-cookie">
+            <div class="project-body">
+              <h3><a href="https://fortunecookiefoundation.org" target="_blank" rel="noopener">Fortune Cookie Foundation</a></h3>
+              <p class="stack"><span>Founder &amp; student advocate</span></p>
+              <ul>
+                <li>Nonprofit recognition and micro-grant program for K–12 and college students</li>
+                <li>Supports students navigating personal hardship and mental health challenges</li>
+                <li>Decisions weigh personal circumstances, mental health, and relative achievement</li>
+              </ul>
+            </div>
+            <p class="project-note">2026 – Present</p>
+          </article>
+
+          <article class="project">
+            <div class="project-body">
+              <h3><a href="https://github.com/genavivermz/smart_thru" target="_blank" rel="noopener">SmartThru</a></h3>
+              <p class="stack"><span>XGBoost</span><span>Python</span><span>Streamlit</span><span>Plotly</span></p>
+              <ul>
+                <li>Mobile orders wait until the car is close enough for the drink to finish on arrival</li>
+                <li>An XGBoost model predicts barista prep time</li>
+                <li>A 200-meter geofence releases the ticket</li>
+                <li>In a peak-hour simulation, throughput rose from 23.9 to 31.8 cars an hour</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-body">
+              <h3><a href="https://github.com/genavivermz/cute-pcb-keychain" target="_blank" rel="noopener">PCB Keychain</a></h3>
+              <p class="stack"><span>KiCad</span></p>
+              <ul>
+                <li>First KiCad board: a small keychain</li>
+                <li>USB-A connector, one LED, and a current-limiting resistor</li>
+                <li>Data pins are left unconnected, so the plug only supplies power</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-body">
+              <h3><a href="https://github.com/genavivermz/nyan-cat-pcb" target="_blank" rel="noopener">Nyan Cat PCB</a></h3>
+              <p class="stack"><span>ATtiny10</span><span>KiCad</span><span>C++</span></p>
+              <ul>
+                <li>Cat-shaped keychain with a white solder mask and black silkscreen</li>
+                <li>Tail drawn from stacked copper tracks</li>
+                <li>Flat parts keep it light</li>
+                <li>ATtiny10 at 1 MHz walks four LEDs, holding each for 100 milliseconds</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-body">
+              <h3><a href="https://github.com/genavivermz/musicbox" target="_blank" rel="noopener">Musicbox</a></h3>
+              <p class="stack"><span>Python</span></p>
+              <ul>
+                <li>Zero-dependency Python player for a minor-chord loop: Cm, Gm, Am, Em, Cm, Gm, Dm, Am</li>
+                <li>Each chord is a one-second WAV from a root, a minor third, and a fifth</li>
+                <li>Played on macOS at 50 BPM</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="focus" id="focus">
+      <div class="shell">
+        <div class="focus-heading">
+          <h2>Focus &amp; interests</h2>
+        </div>
+        <div class="focus-grid">
+          <h3>HCI</h3>
+          <h3>CS &amp; ML</h3>
+          <h3>Mentorship</h3>
+          <h3>Writing</h3>
+        </div>
+        <article class="writing">
+          <p>An interest in academic and creative writing, and a passion for mentoring in writing and English.</p>
+          <a class="text-link" href="https://docs.google.com/document/d/1BF4aVnevXdpZHb8tzovQJ7JOILSmfqLjkdD-w589lTQ/edit?usp=sharing" target="_blank" rel="noopener">See my writing
+            <svg viewBox="0 0 15 15" aria-hidden="true"><path d="M4 11 11 4M11 4H5.5M11 4v5.5" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </article>
+        <div class="about-actions" id="about">
+          <a class="text-link" href="https://docs.google.com/document/d/1dQquPG0_9Cg6wvU7PJrIwFVtS606m71Bmf3FkGEy-fg/edit?usp=sharing" target="_blank" rel="noopener">Read my full résumé
+            <svg viewBox="0 0 15 15" aria-hidden="true"><path d="M4 11 11 4M11 4H5.5M11 4v5.5" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a class="text-link" href="history.html">Earlier roles
+            <svg viewBox="0 0 15 15" aria-hidden="true"><path d="M4 11 11 4M11 4H5.5M11 4v5.5" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="contact" id="note">
+    <div class="contact-inner shell">
+      <h2>Pass me a note</h2>
+      <a href="mailto:genavivermz@gmail.com">genavivermz@gmail.com
+        <svg viewBox="0 0 15 15" aria-hidden="true"><path d="M4 11 11 4M11 4H5.5M11 4v5.5" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <div class="contact-foot">
+        <div>
+          <a href="https://www.linkedin.com/in/genavive-ramirez" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/genavivermz" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://docs.google.com/document/d/1dQquPG0_9Cg6wvU7PJrIwFVtS606m71Bmf3FkGEy-fg/edit?usp=sharing" target="_blank" rel="noopener">CV</a>
+          <a href="mailto:genavivermz@gmail.com">Email</a>
+        </div>
+        <p>Genavive Ramirez · 2026</p>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
