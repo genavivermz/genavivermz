@@ -182,6 +182,13 @@ a:focus-visible {
   align-items: center;
 }
 
+.hero-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 28px;
+}
+
 .primary-link,
 .text-link {
   display: inline-flex;
@@ -337,12 +344,33 @@ a:focus-visible {
   margin-top: 6px;
 }
 
-.project-mail a {
+.project-body a {
   position: relative;
   z-index: 1;
+}
+
+.project-mail a {
   color: var(--blue-deep);
   text-decoration: none;
   border-bottom: 1px solid var(--blue-deep);
+}
+
+.project-body li a {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 4px;
+}
+
+.project-body li a svg {
+  width: 11px;
+  height: 11px;
+  flex: none;
+  transform: translateY(1px);
+  transition: transform 180ms ease;
+}
+
+.project-body li a:hover svg {
+  transform: translate(2px, -1px);
 }
 
 .project-note {
@@ -371,6 +399,7 @@ a:focus-visible {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+  margin-top: 36px;
 }
 
 .focus-grid h3 {
@@ -691,15 +720,17 @@ a:focus-visible {
   }
 
   .nav .shell {
-    height: 76px;
+    height: auto;
+    min-height: 76px;
+    padding-block: 16px;
+    align-items: flex-start;
   }
 
   .nav-links {
-    gap: 18px;
-  }
-
-  .nav-links a:first-child {
-    display: none;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 8px 12px;
+    max-width: 230px;
   }
 
   .hero {
